@@ -1,0 +1,48 @@
+.todos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(114, 30, 30, 0.546);
+    border: 2px solid black;
+    margin-top:2vmin;
+    padding-right:1vmin;
+    border-radius: 5px;   
+}
+.todos input{
+    width:4vmin;
+}
+.text{
+    width:80%;
+    margin-right:1vmin;
+    text-align: left;
+    color: bisque;
+    font-weight: bold;
+    padding: 0;
+    padding-left: 2vmin;
+    font-size: 3vmin;
+}
+.point{
+    color: bisque;
+    font-size:4vmin;
+    margin-left: 1vmin;
+}
+.delete{
+    height:5vmin;
+    text-align: center;
+    /* background-color: rgb(87, 7, 7); */
+    color:wheat;
+    font-size: larger;
+    background-color: transparent;
+    border:0px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.delete:hover{
+    transform: scale(1.5);
+}

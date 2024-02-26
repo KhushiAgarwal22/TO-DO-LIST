@@ -1,0 +1,94 @@
+.mainpage{
+    display: flex;
+justify-content: space-between;}
+.container{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(196, 126, 121);
+    width:40vw;
+    /* margin:auto; */
+    margin-top:10vmin;
+    padding:2vmin;
+    /* float: left; */
+    margin-left:5%
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2vmin;
+}
+.add{
+    /* background: url('../public/plus.png');
+    background-size: contain; */
+    height:5vmin;
+    width:5vmin;
+    background-color: rgb(8, 0, 0);
+    color: azure;
+    font-size: 100%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.namee{
+    color: rgb(43, 10, 15);
+    
+    text-decoration-line:underline;
+}
+.heading{
+    font-size: 7vmin;
+}
+.text1{
+    width: 50%;
+    height:6vmin;
+    border:2px solid black
+}
+.count{
+    font-size: 3vmin;
+    font-weight: 800;
+    color: rgb(49, 32, 12);
+}
+.logout{
+    display: flex;
+    justify-content: flex-end;
+}
+.logout button{
+    background-color: rgb(175, 54, 54);
+    height:6vmin;
+    width:16vmin;
+    font-size:3vmin;
+    /* margin-top:2vmin; */
+    border-radius: 1vmin;
+    /* float: right; */
+    /* margin-right: 4vmin; */
+}
+.logout button:hover{
+    transform: scale(1.1);
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    margin-right:5vmin;
+}
+.show{
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    background-image: url('../../public/profile.jpg');
+    background-size: contain;
+}
+.userprofile{
+    height:50px;
+    width:50px;
+    background-color: black;
+    display: none;
+}
+.userprofileshow{
+    height:50px;
+    width:50px;
+    background-color: black;
+    position :inherit;
+    display: flex;
+    margin: auto; 
+    /* display: none;  */
+}

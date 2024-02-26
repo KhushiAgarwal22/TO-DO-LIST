@@ -1,0 +1,106 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+.bodysignup
+{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #1f0910; */
+    background: url('../../public/loginbg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bodysignup2
+{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #1f0910; */
+    background: url('../../public/loginbg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.container3
+{
+  
+    /* grid-template-columns: 1fr 1fr; */
+
+    /* height: 80vh;*/
+    width: 30%;
+    float: right;
+    margin-top: 0;
+    padding: 2vmin;
+    background-color: #21060a90;
+    margin-right: 5vmin; 
+    
+}
+
+.pt2
+{
+    background: rgba(240, 234, 204, 0);
+    /* box-shadow: 0px 0px 10px 2px rgb(187, 101, 207); */
+    /* padding: 1vmin;*/
+} 
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e0c1b4;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color:white;
+}
+
+.inp{
+    flex:1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 3%;  
+}
+.sub{
+    border: none;
+    outline: none;
+    padding: 4%;
+    width: 100%;
+    background: #fad3e0;
+    color: #060505;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin: 0% 0% 2% 0%;
+    margin-bottom: 4vmin;
+}
+
+#t1
+{
+     padding: 2%; 
+    color:rgb(0, 0, 0);
+}
+a{
+    color:rgb(0, 0, 0); 
+    font-weight: bold;
+}
+
+.heading2{
+    color: #1a1807a9;
+    font-size: 8vmin;
+    text-align:end;
+    margin-right:6vmin;
+}
+
+.signuphead{
+    color: #0b0a03a9;
+    font-size: 10vmin;
+    margin:0;
+    margin-right:6vmin;
+    text-align:end;
+}
