@@ -28,7 +28,6 @@ export default function LogIn() {
     <form  onSubmit={(e)=>userAuth(e)}>
       <h1 className="heading2">LOGIN INTO ACCOUNT</h1>
       <div className="container3">
-        <div className="pt2">
           <div className="row">
             <input className="inp" type="email" id="email" name="email" placeholder="example@mail.com" />
           </div>
@@ -41,7 +40,6 @@ export default function LogIn() {
               New user? <Link to="/signup"> SignUp here!</Link>
             </span>
           </div>
-        </div>
       </div>
     </form>
     </div>
