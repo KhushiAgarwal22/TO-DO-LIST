@@ -8,28 +8,7 @@ import SignUp from './Components/SignUp';
 
 
 function App() {
-//  const [user,setUser] = useState(null);
-//  useEffect(()=>{
-//    onAuthStateChanged(auth, (user)=>{
-//      if(user)
-//      {
-//        console.log('hi' ,user);
-//        setUser(user);
-//      }
-//      else{
-//        console.log('no user');
-//        setUser(null);
-//      }
-//    })
-//  },[])
-//  if(user===null)
-//  {
-//    return(
-//     <div className="App">
-//      <LandingPage/>
-//      </div>
-//    )
-//  }
+
   return (
     <div className="App">
         <BrowserRouter>

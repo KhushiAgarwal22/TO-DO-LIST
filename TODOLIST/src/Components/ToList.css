@@ -1,15 +1,18 @@
 .mainpage{
     display: flex;
-justify-content: space-between;}
+justify-content: space-between;
+background-image: url('../../public/bg.webp');
+background-size: cover;
+height:100vh;
+width:100vw
+}
 .container{
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(196, 126, 121);
-    width:40vw;
-    /* margin:auto; */
-    margin-top:10vmin;
+    width:fit-content;
+    height: fit-content;
     padding:2vmin;
-    /* float: left; */
-    margin-left:5%
+    margin:auto  
 }
 .search{
     display: flex;
