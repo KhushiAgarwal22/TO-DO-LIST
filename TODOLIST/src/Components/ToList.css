@@ -3,7 +3,8 @@
 justify-content: space-between;
 background-image: url('../../public/bg.webp');
 background-size: cover;
-height:100vh;
+height:max-content;
+min-height: 100vh;
 width:100vw
 }
 .container{
@@ -12,7 +13,8 @@ width:100vw
     width:fit-content;
     height: fit-content;
     padding:2vmin;
-    margin:auto  
+    margin:auto ;
+    margin-top:5vmin 
 }
 .search{
     display: flex;
@@ -94,4 +96,10 @@ width:100vw
     display: flex;
     margin: auto; 
     /* display: none;  */
+}
+
+@media only screen and (max-width:420px){
+    .container{
+        width:90vw
+    }
 }

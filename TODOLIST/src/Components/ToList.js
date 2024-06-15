@@ -84,7 +84,7 @@ export default function ToList() {
         <div className="search">
           <input
             type="text"
-            placeholder="Enter your todo here"
+            placeholder="Enter here"
             className="text1"
             value={todo}
             onChange={(e) => {
