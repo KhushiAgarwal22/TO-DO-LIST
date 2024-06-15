@@ -9,3 +9,10 @@
 FIREBASE CONFIGURATION FOR: 
 <li>User Authentication using email/password.</li>
 <li>Firestore Database for storing information and tasks.</li>
+<h2>Demonstration</h2>
+<img width="960" alt="image" src="https://github.com/KhushiAgarwal22/TO-DO-LIST/assets/121626411/a2135909-a210-4942-8299-81d35e859840">
+<img width="919" alt="image" src="https://github.com/KhushiAgarwal22/TO-DO-LIST/assets/121626411/f8fbe785-4c06-49f6-a721-c4f6bb01dd96">
+<img width="464" alt="image" src="https://github.com/KhushiAgarwal22/TO-DO-LIST/assets/121626411/4182d20a-2c7a-42b7-bedf-d12579d95bb5">
+
+
+
