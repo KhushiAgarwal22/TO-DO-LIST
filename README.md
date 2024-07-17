@@ -5,6 +5,7 @@
 <h1>TECH STACK USED-</h1>
 <H2><B>☯FRONTEND:</B></H2>
 <li>REACT.JS </li>
+<li>CSS </li>
 <H2><B>☯BACKEND:</B></H2>
 FIREBASE CONFIGURATION FOR: 
 <li>User Authentication using email/password.</li>
